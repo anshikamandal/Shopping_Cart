@@ -30,20 +30,6 @@ Welcome to **Shopping Cart**, a beautifully designed and simple React-based web 
 - CSS for styling
 - Font Awesome icons
 
-## 📁 Project Structure
-
-Shopping_Cart/
-├── public/
-├── src/
-│ ├── components/
-│ │ └── AddProduct.js
-│ ├── App.js
-│ ├── Main.js
-│ ├── main.css
-│ └── ...
-├── package.json
-└── README.md
-
 
 ## 🚀 Getting Started
 
