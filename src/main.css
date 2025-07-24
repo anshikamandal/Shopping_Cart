@@ -1,0 +1,166 @@
+:root {
+    --label_gray: rgba(128, 128, 128, 0.23);
+}
+
+.product_and_cost_container {
+    margin-left: 10vw;
+    margin-bottom: 10px;
+    padding-top: 50px;
+    display: flex;
+}
+
+.product_container {
+    background-color: white;
+    min-width: 500px;
+    height: 300px;
+    border-radius: 8px;
+    margin: 10px;
+    overflow: auto;
+
+
+    animation-name: container;
+    animation-duration: 2.5s;
+    animation-timing-function: ease;
+}
+
+.cost_container {
+    background-color: white;
+    min-width: 500px;
+    min-height: 300px;
+    border-radius: 8px;
+    margin: 10px;
+
+
+    animation-name: container;
+    animation-duration: 2.5s;
+    animation-timing-function: ease;
+
+}
+
+.price_display {
+    display: flex;
+    justify-content: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xxx-large;
+    font-weight: bold;
+    color: #3B3B3B;
+    padding-top: 5vh;
+    transition: 0.5s opacity(1) ease;
+}
+
+
+
+.purchased_products_container {
+    display: flex;
+    justify-content: center;
+}
+
+.purchased_products_child {
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+
+    animation-name: container;
+    animation-duration: 2.5s;
+    animation-timing-function: ease;
+}
+
+.website_description_1 {
+    width: 740px;
+    font-family: 'Trebuchet MS', 'Verdana', sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    color: #3B3B3B;
+    margin: 0;
+    padding-top: 50px;
+    margin-left: 280px;
+    animation-name: floatIn;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+}
+
+.website_description_2 {
+    width: 700px;
+    font-family: 'Trebuchet MS', 'Verdana', sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    color: #3B3B3B;
+    margin: 0;
+    padding-top: 20px;
+    margin-left: 300px;
+
+    animation-name: floatIn;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes floatIn {
+    from {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes container {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.label {
+    font-weight: bold;
+    font-size: larger;
+    font-family: Arial;
+    padding-top: 5px;
+    padding-left: 10px;
+    margin: 0;
+}
+
+.add_label {
+    height: 40px;
+    margin: 10px;
+    background-color: var(--label_gray);
+    border-radius: 8px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-left: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.add_label:hover {
+    transform: scaleX(1.04);
+    cursor: pointer;
+}
+
+.input_label {
+    height: 40px;
+    margin: 10px;
+    background-color: var(--label_gray);
+    border-radius: 8px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding-left: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.input_label:hover {
+    transform: scaleX(1.04);
+    cursor: pointer;
+}

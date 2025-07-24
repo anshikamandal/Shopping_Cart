@@ -1,0 +1,14 @@
+
+.nav_bar{
+    display: flex;
+    gap: 100px;
+    height: 60px;
+    align-items: center;
+    margin-left: 30px;
+    gap:55vw ;
+    color: orange;
+}
+.nav_child{
+    display: flex;
+    gap: 100px;
+}

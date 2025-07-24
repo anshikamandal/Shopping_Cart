@@ -1,0 +1,15 @@
+.footer_body{
+    background-color: rgb(68, 67, 67);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_contents{
+    color: white;
+    width: 200px;
+    height: 30px;
+}
+h2{
+    min-width: 180px;
+}
