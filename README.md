@@ -1,4 +1,4 @@
-<img width="1919" height="1079" alt="Screenshot 2025-07-24 121725" src="https://github.com/user-attachments/assets/fcfbb25f-a88e-4b5b-aa0d-2e163453fa3c" /># 🛒 Shopping Cart (React)
+# 🛒 Shopping Cart (React)
 
 Welcome to **Shopping Cart**, a beautifully designed and simple React-based web app to add and manage your shopping items with live total calculation and drag-and-drop functionality.
 
